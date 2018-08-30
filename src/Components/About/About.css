@@ -1,0 +1,10 @@
+#aboutPage{
+    text-align: left;
+    float: right;
+    color: black;
+}
+#box{
+    border-top: 3px solid blue;
+    margin-top: 20px;
+    margin-left: 230px;
+}

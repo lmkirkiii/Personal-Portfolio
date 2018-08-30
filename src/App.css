@@ -43,21 +43,88 @@ li h5{
 body{
  background-color: white;
 }
+h3{
+  margin-left: 35px;
+  text-align: left;
+}
 #hello{
   color: green;
+  -webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: fade;
+  animation-duration: 4s;
 }
 #I{
   color: yellow;
+  -webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+  animation-name: fade;
+  animation-duration: 5s;
 }
 #Am{
   color: red;
+  -webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+  animation-name: fade;
+  animation-duration: 6s;
 }
 #name{
   color: blue;
+  -webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: fade;
+  animation-duration: 7s;
 }
 #the{
   color: purple;
+  -webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+  animation-name: fade;
+  animation-duration: 8s;
 }
 #dev{
   color: hotpink; 
+  -webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  animation-name: fade;
+  animation-duration: 10s;
+}
+#about{
+  color: green;
+  -webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+  animation-name: fade;
+  animation-duration: 7s;
+}
+#resume{
+  color: yellow;
+  -webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+  animation-name: fade;
+  animation-duration: 8s;
+}
+#contact{
+  color: red;
+  -webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 9s; /* Safari 4.0 - 8.0 */
+  animation-name: fade;
+  animation-duration: 9s;
+}
+#shift{
+  color: blue;
+  -webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  animation-name: fade;
+  animation-duration: 1os;
+}
+#me{
+  height: 600px;
+  width: 600px;
+}
+@keyframes fade {
+  0%   {color:red; left:0px; top:0px; opacity: 0;}
+  25%  {color:yellow; left:200px; top:0px; opacity: 0.1;}
+  50%  {color:blue; left:200px; top:200px; opacity: 0.4;}
+  75%  {color:pink; left:200px; top:200px;opacity: 0.6;}
+  100% {color:green; left:0px; top:200px; opacity: 1;}
 }

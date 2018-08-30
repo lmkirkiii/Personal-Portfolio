@@ -1,0 +1,21 @@
+
+  
+  .ready{ 
+    border-top: blue;
+  }
+  .better{
+    padding: 10px;
+    height: 550px;
+    width: 680px;
+    margin: 50px;
+    border-top: 3px solid blue;
+  }
+  img:hover {
+    cursor: pointer;
+  }
+  .project{
+    height: 600px;
+    width: 600px;
+  }
+
+  
