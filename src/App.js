@@ -18,9 +18,9 @@ class App extends Component {
         },
         {
           title: "Yelreblu Art Works",
-          image: "",
+          image: "https://i.imgur.com/YvBS8kx.jpg",
           link: "https://lawrence-kirk.squarespace.com/",
-          tech: "React.js, Javascript ES6, Express.js, Node.js, HTML5, Css, Materialize"
+          tech: "SquareSpace"
         },
         {
           title: "Fluxus",
