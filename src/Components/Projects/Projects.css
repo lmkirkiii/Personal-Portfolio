@@ -1,14 +1,17 @@
 
-  
+  #block{
+    border-top: 3px solid blue;
+    border-bottom:3px solid blue;
+    margin: 20px;
+  }
   .ready{ 
     border-top: blue;
   }
   .better{
     padding: 10px;
-    height: 550px;
-    width: 680px;
+    height: 650px;
+    width: 780px;
     margin: 50px;
-    border-top: 3px solid blue;
   }
   img:hover {
     cursor: pointer;
@@ -17,5 +20,10 @@
     height: 600px;
     width: 600px;
   }
-
+.tech{
+  float: left;
+  color: red;
+  padding: 5px;
+  display: block;
+}
   

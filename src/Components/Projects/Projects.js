@@ -7,11 +7,12 @@ class Projects extends Component {
     let vacationOption = this.props.projectsData.map(item => {
       return(
         
-        <div className="col s12" key={item.title}>
+        <div id="block" className="col s12" key={item.title}>
         <h4 className="line">{item.title}</h4>
         <div className="imager">  
         <a href={item.link}><img class="better" src={item.image}></img></a>
         </div>
+        <h5 class="tech">Technologies Used: {item.tech}</h5>
         </div>
       )
     })

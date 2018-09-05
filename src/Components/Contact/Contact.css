@@ -11,6 +11,7 @@ h4{
 }
 #no{
     border: none;
+    border-top: 3px solid red;
 }
 .cell{
     height: 500px;

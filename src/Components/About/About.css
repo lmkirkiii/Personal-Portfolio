@@ -4,7 +4,13 @@
     color: black;
 }
 #box{
-    border-top: 3px solid blue;
+    border-top: 3px solid green;
     margin-top: 20px;
     margin-left: 230px;
+    border-bottom: 3px solid green;
+}
+
+.bottom{
+    border-bottom: 3px solid green;
+    padding: 15px;
 }

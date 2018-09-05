@@ -11,6 +11,7 @@ class Contact extends Component {
        <h4> Contact Me Here  </h4>
        <form action="https://formspree.io/lmkirkiii@gmail.com" method="POST">
             <input type="text" name="name" placeholder="Name" ></input>
+            <input type="text" name="subject" placeholder="Subject"></input>
             <input type="email" name="_replyto" placeholder="Email" ></input>
             <h4><input id="no" type="submit" value="Send"></input></h4>
         </form>

@@ -13,27 +13,38 @@ class App extends Component {
         {
           title: "Love Away Vacations",
           image: "https://i.imgur.com/SdFspKs.png",
-          link: "http://helium-vacations.surge.sh"
+          link: "http://helium-vacations.surge.sh",
+          tech: "React.js, Javascript ES6, Express.js, Node.js, HTML5, Css, Materialize"
+        },
+        {
+          title: "Yelreblu Art Works",
+          image: "",
+          link: "https://lawrence-kirk.squarespace.com/",
+          tech: "React.js, Javascript ES6, Express.js, Node.js, HTML5, Css, Materialize"
         },
         {
           title: "Fluxus",
           image:  "https://i.imgur.com/fkHZ7vq.png",
-          link: "https://hopeful-flux.herokuapp.com/"
+          link: "https://hopeful-flux.herokuapp.com/",
+          tech: "Handelbars, Javascript ES6, Express.js, Node.js, HTML5, Css, Materialize"
         },
         {
           title: "Book of Faces",
           image: "https://i.imgur.com/0SpwCaN.png",
-          link: "https://lmkirkiii.github.io/Art-Profile/"
+          link: "https://lmkirkiii.github.io/Art-Profile/",
+          tech: "Javascript ES6, jQuery, HTML5, Css, Bootstrap"
         },
         {
           title: "Snapple Flash",
           image: "https://i.imgur.com/bcvyYq8.png",
-          link: "https://lmkirkiii.github.io/-GAME-WDI-DC-2018/"
+          link: "https://lmkirkiii.github.io/-GAME-WDI-DC-2018/",
+          tech: "Javascript ES6, HTML5, Css"
         },
         {
           title: "Horror Quiz",
           image: "https://i.imgur.com/h2m7wxJ.png",
-          link: "https://lmkirkiii.github.io/Horror-Final/"
+          link: "https://lmkirkiii.github.io/Horror-Final/",
+          tech: "Javascript ES6, jQuery, HTML5, Css, Bootstrap"
         },
       ]
     }
